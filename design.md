@@ -1,8 +1,8 @@
-# Design Document: PostMorphAI
+# Design Document: OneSocial
 
 ## Overview
 
-PostMorphAI is a web-based AI-powered content transformation platform that converts single user inputs into optimized posts for multiple social media platforms. The system leverages modern AI APIs (OpenAI GPT or Gemini) to generate platform-specific content while maintaining a clean, scalable architecture suitable for rapid development and future extensibility.
+OneSocial is a web-based AI-powered content transformation platform that converts single user inputs into optimized posts for multiple social media platforms. The system leverages modern AI APIs (OpenAI GPT or Gemini) to generate platform-specific content while maintaining a clean, scalable architecture suitable for rapid development and future extensibility.
 
 The platform follows a microservices-inspired architecture with clear separation between authentication, content processing, AI generation, and export functionality. This design enables independent scaling of components and easy integration of additional platforms or AI providers.
 
@@ -509,4 +509,5 @@ Each property-based test must include a comment referencing its design document 
 - Separate test databases and storage
 - Mock AI services for deterministic testing
 - Isolated user sessions and authentication
+
 - Clean test data between test runs
